@@ -41,6 +41,12 @@ jar -tvf Build.jar
 hadoop jar Build.jar /mapper-assignment-2/Phone.txt /mapper-assignment-2/output
 ```
 
+# How to Read:
+
+```cmd
+hadoop fs -cat <hdfs_file_path>
+```
+
 # How to download file:
 
 ```cmd
