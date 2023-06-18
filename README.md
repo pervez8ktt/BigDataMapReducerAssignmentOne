@@ -27,6 +27,14 @@ jps
 hadoop fs -put -f <src-file> <dest-dir>
 ```
 
+# How to check JAR:
+
+```cmd
+
+jar -tvf Build.jar
+
+```
+
 # How to run:
 
 ```cmd
